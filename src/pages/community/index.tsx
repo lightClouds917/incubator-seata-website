@@ -22,7 +22,7 @@ const data = {
         link: '/zh-cn/blog/seata-meetup-hangzhou.html',
       },
       {
-        img: 'img/blog/20191218210552.png',
+        img: require('@site/static/img/blog/20191218210552.png').default,
         title: 'Seata Community Meetup·杭州站',
         content:
           'Seata Community Meetup·杭州站,将于12月21号在杭州市梦想小镇浙江青年众创空间正式召开',
@@ -39,8 +39,8 @@ const data = {
     }),
     list: [
       {
-        img: 'img/community/mailinglist.png',
-        imgHover: 'img/community/mailinglist_hover.png',
+        img: require('@site/static/img/community/mailinglist.png').default,
+        imgHover: require('@site/static/img/community/mailinglist_hover.png').default,
         title: translate({
           id: 'community.contactsListTitle1',
           message: '邮件列表',
@@ -66,9 +66,9 @@ const data = {
         }),
       },
       {
-        img: '//img.alicdn.com/imgextra/i4/O1CN01BQvTuX1O8KHxfi2Ye_!!6000000001660-0-tps-312-304.jpg',
+        img: '//img.alicdn.com/imgextra/i3/O1CN01JP7KIR1ju3dlIdipd_!!6000000004607-0-tps-454-460.jpg',
         imgHover:
-          '//img.alicdn.com/imgextra/i4/O1CN01BQvTuX1O8KHxfi2Ye_!!6000000001660-0-tps-312-304.jpg',
+          '//img.alicdn.com/imgextra/i3/O1CN01JP7KIR1ju3dlIdipd_!!6000000004607-0-tps-454-460.jpg',
         title: translate({
           id: 'community.contactsListTitle4',
           message: '钉钉③群(推荐)',
@@ -93,7 +93,7 @@ const data = {
     }),
     list: [
       {
-        img: 'img/community/mailinglist.png',
+        img: require('@site/static/img/community/mailinglist.png').default,
         title: translate({
           id: 'community.contributeListTitle1',
           message: '邮件列表',
@@ -110,7 +110,7 @@ const data = {
         ),
       },
       {
-        img: 'img/community/issue.png',
+        img: require('@site/static/img/community/issue.png').default,
         title: translate({
           id: 'community.contributeListTitle2',
           message: '报告问题',
@@ -135,7 +135,7 @@ const data = {
         ),
       },
       {
-        img: 'img/community/documents.png',
+        img: require('@site/static/img/community/documents.png').default,
         title: translate({
           id: 'community.contributeListTitle3',
           message: '改进文档',
@@ -160,7 +160,7 @@ const data = {
         ),
       },
       {
-        img: 'img/community/pullrequest.png',
+        img: require('@site/static/img/community/pullrequest.png').default,
         title: translate({
           id: 'community.contributeListContent4_1',
           message: '提交 PR',
